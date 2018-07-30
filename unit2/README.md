@@ -1,0 +1,3 @@
+# Unit 2: Strings
+
+This unit is being designed. Expected release: November 2018.
