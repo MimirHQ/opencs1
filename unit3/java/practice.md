@@ -175,8 +175,8 @@ Write the body of a function that operates a vending machine according to the pr
 - When the customer arrives, item 6 is out of stock, all other items have five in stock.
 - The customer must press a valid keypad button, pay enough money, and have enough items left in order to get something from the vending machine.
 - Print the message `"Selected a valid item."` or `"Selected an invalid item."` depending on whether the customer selected a valid item number.
-- Print the message `"Payment was enough."` or `"Payment was not enough."` depending on whether the customer paid enough money for the item.
-- Print the message `"Here is your item."` or `"You get nothing."` depending on whether the customer gets the item they wanted.
+- If the customer selected a valid item number, print the message `"Payment was enough."` or `"Payment was not enough."` depending on whether the customer paid enough money for the item.
+- Print the message `"Here is your item."` or `"You get nothing."` depending on whether the customer ultimately gets the item they wanted.
 
 ```java
 public class VendingMachine {
