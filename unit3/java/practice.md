@@ -4,17 +4,17 @@
 
 - LO: (Remember) Students will recall how to determine the parity of a number.
 
-Write a function to check whether or not an integer number is a three-digit even number.
+Write a function to check whether or not an integer number is an even number.
 
 ```java
 public class NumberChecker {
 
     /**
-     * Checks whether or not a number is a three-digit even number.
+     * Checks whether or not a number is an even number.
      * @param number: the number
-     * @return: true if the number is a three-digit number and even, otherwise false
+     * @return: true if the number is even, otherwise false
      */
-    public static boolean isTripleDigitEvenNumber(int number) {
+    public static boolean isEvenNumber(int number) {
 
     }
 
@@ -56,17 +56,28 @@ What will be the values in the last column, from top to bottom?
 Rewrite this block of code using **logical operators** instead of **nested conditionals**.
 
 ```java
-public class NumberTeller {
+public class RangeChecker {
 
-    public static void tellMeAboutZ(int z) {
-        if (z > 0) {
-            if (z % 2 == 0) {
-                System.out.println("The number is positive and even.");
+    /**
+     * Checks whether or not a number is between two other numbers (exclusive)
+     * @note: you may assume that low will always be lower than high
+     * @param number: the number
+     * @param low: the low end of the range
+     * @param high: the high end of the range
+     * @return: true if the number is in range (exclusive), otherwise false
+     */
+    public static boolean isBetweenExclusive(int number, int low, int high) {
+        if (number > low) {
+            if (number < high) {
+                System.out.println("The number is in between.");
+                return true;
             } else {
-                System.out.println("The number is not positive and even.");
+                System.out.println("The number is not in between.");
+                return false;
             }
         } else {
-            System.out.println("The number is not positive and even.");
+            System.out.println("The number is not in between.");
+            return false;   
         }
     }
 

@@ -70,14 +70,14 @@ bool isBetweenExclusive(int number, int low, int high) {
     if (number > low) {
         if (number < high) {
             cout << "The number is in between." << endl;
-        return true;
+            return true;
         } else {
             cout << "The number is not in between." << endl;
-        return false;
+            return false;
         }
     } else {
         cout << "The number is not in between." << endl;
-    return false;   
+        return false;   
     }
 }
 ```
