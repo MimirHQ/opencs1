@@ -75,7 +75,7 @@ By Kenneth Leroy Busbee and Dave Braunschweig
 
 - (Remember) Students will recall how to determine the parity of a number.
 - (Apply) Students will complete a truth table for a compound boolean expression.
-- (Apply) Students will modify code to use boolean operators instead of nested conditionals.
+- (Apply) Students will modify code to use logical operators instead of nested conditionals.
 - (Understand) Students will determine which branch of a conditional statement will be executed.
 - (Apply) Students will write conditional code that implements written requirements.
 - (Apply) Students will transform conditional code to incorporate a new written requirement.

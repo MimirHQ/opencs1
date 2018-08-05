@@ -50,9 +50,9 @@ What will be the values in the last column, from top to bottom?
 
 ## Problem 3
 
-- LO: (Apply) Students will modify code to use boolean operators instead of nested conditionals.
+- LO: (Apply) Students will modify code to use logical operators instead of nested conditionals.
 
-Rewrite this block of code using **boolean operators** instead of **nested conditionals**.
+Rewrite this block of code using **logical operators** instead of **nested conditionals**.
 
 ```cpp
 #include <iostream>
