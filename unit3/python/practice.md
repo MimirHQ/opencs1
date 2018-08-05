@@ -99,10 +99,10 @@ else:
 
 What are the values of `a` and `b` when the program reaches Checkpoint 1? At Checkpoint 2?
 
-A. Checkpoint 1: a = -1, b = 0, Checkpoint 2: a = 0, b = 0
-B. Checkpoint 1: a = 0, b = -1, Checkpoint 2: a = 0, b = 0
-C. Checkpoint 1: a = -1, b = -1, Checkpoint 2: a = 0, b = -1
-D. Checkpoint 1: a = 0, b = 0, Checkpoint 2: a = 1, b = 0
+- A. Checkpoint 1: a = -1, b = 0, Checkpoint 2: a = 0, b = 0
+- B. Checkpoint 1: a = 0, b = -1, Checkpoint 2: a = 0, b = 0
+- C. Checkpoint 1: a = -1, b = -1, Checkpoint 2: a = 0, b = -1
+- D. Checkpoint 1: a = 0, b = 0, Checkpoint 2: a = 1, b = 0
 
 ## Problem 5
 
