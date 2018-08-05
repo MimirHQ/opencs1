@@ -4,18 +4,18 @@
 
 - LO: (Remember) Students will recall how to determine the parity of a number.
 
-Write a function to check whether or not an integer number is a three-digit even number.
+Write a function to check whether or not an integer number is an even number.
 
 ```cpp
 #include <iostream>
 using namespace std;
 
 /**
- * Checks whether or not a number is a three-digit even number.
+ * Checks whether or not a number is an even number.
  * @param number: the number
- * @return: true if the number is a three-digit number and even, otherwise false
+ * @return: true if the number is even, otherwise false
  */
-bool isTripleDigitEvenNumber(int number) {
+bool isEvenNumber(int number) {
 
 }
 ```
@@ -59,19 +59,25 @@ Rewrite this block of code using **logical operators** instead of **nested condi
 using namespace std;
 
 /**
- * Checks whether or not a number is a three-digit even number.
+ * Checks whether or not a number is between two other numbers (exclusive)
+ * @note: you may assume that low will always be lower than high
  * @param number: the number
- * @return: true if the number is a three-digit number and even, otherwise false
+ * @param low: the low end of the range
+ * @param high: the high end of the range
+ * @return: true if the number is in range (exclusive), otherwise false
  */
-bool tellMeAboutZ(int number) {
-    if (z > 0) {
-        if (z % 2 == 0) {
-            cout << "The number is positive and even." << endl;
+bool isBetweenExclusive(int number, int low, int high) {
+    if (number > low) {
+        if (number < high) {
+            cout << "The number is in between." << endl;
+        return true;
         } else {
-            cout << "The number is not positive and even." << endl;
+            cout << "The number is not in between." << endl;
+        return false;
         }
     } else {
-        cout << "The number is not positive and even." << endl;
+        cout << "The number is not in between." << endl;
+    return false;   
     }
 }
 ```
