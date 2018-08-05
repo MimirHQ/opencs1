@@ -9,7 +9,7 @@ def ruleset1(scenario: Scenario) -> str:
     @param scenario: details about the scenario
     @return: "passengers" or "pedestrians" depending on who you want to save
     """
-    pass
+    return "passengers"
 
 
 def ruleset2(scenario: Scenario) -> str:
@@ -20,7 +20,7 @@ def ruleset2(scenario: Scenario) -> str:
     @param scenario: details about the scenario
     @return: "passengers" or "pedestrians" depending on who you want to save
     """
-    pass
+    return "passengers"
 
 
 def ruleset3(scenario: Scenario) -> str:
@@ -35,7 +35,7 @@ def ruleset3(scenario: Scenario) -> str:
     @param scenario: details about the scenario
     @return: "passengers" or "pedestrians" depending on who you want to save
     """
-    pass
+    return "passengers"
 
 
 def my_decision(scenario: Scenario) -> str:
@@ -46,4 +46,4 @@ def my_decision(scenario: Scenario) -> str:
     @param scenario: details about the scenario
     @return: "passengers" or "pedestrians" depending on who you want to save
     """
-    pass
+    return "passengers"

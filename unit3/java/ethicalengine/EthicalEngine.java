@@ -14,7 +14,7 @@ public class EthicalEngine extends Engine {
      * @return Decision: which group to save
      */
     public static Decision ruleset1(Scenario scenario) {
-
+        return Decision.PASSENGERS;
     }
 
     /**
@@ -25,7 +25,7 @@ public class EthicalEngine extends Engine {
      * @return Decision: which group to save
      */
     public static Decision ruleset2(Scenario scenario) {
-
+        return Decision.PASSENGERS;
     }
 
     /**
@@ -40,7 +40,7 @@ public class EthicalEngine extends Engine {
      * @return Decision: which group to save
      */
     public static Decision ruleset3(Scenario scenario) {
-
+        return Decision.PASSENGERS;
     }
 
     /**
@@ -52,6 +52,7 @@ public class EthicalEngine extends Engine {
      */
     public Decision decide(Scenario scenario) {
         // TODO: Implement your own decision engine!
+        return Decision.PASSENGERS;
     }
 
 }

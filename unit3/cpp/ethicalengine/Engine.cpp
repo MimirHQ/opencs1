@@ -19,6 +19,7 @@ string ruleset1(Scenario scenario) {
     Person passenger = scenario.getPassengers()[0];
     Person pedestrian = scenario.getPedestrians()[0];
     // TODO: Fill in the method
+    return "passengers";
 }
 
 /**
@@ -32,6 +33,7 @@ string ruleset2(Scenario scenario) {
     Person passenger = scenario.getPassengers()[0];
     Person pedestrian = scenario.getPedestrians()[0];
     // TODO: Fill in the method
+    return "passengers";
 }
 
 /**
@@ -49,6 +51,7 @@ string ruleset3(Scenario scenario) {
     Person passenger = scenario.getPassengers()[0];
     Person pedestrian = scenario.getPedestrians()[0];
     // TODO: Fill in the method
+    return "passengers";
 }
 
 /**
@@ -62,4 +65,5 @@ string decide(Scenario scenario) {
     Person passenger = scenario.getPassengers()[0];
     Person pedestrian = scenario.getPedestrians()[0];    // TODO: Implement your own decision engine!
     // TODO: Fill in the method
+    return "passengers";
 }
