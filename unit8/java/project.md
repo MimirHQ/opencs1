@@ -85,9 +85,13 @@ A successful solution will:
 
 In this model, a **Store** can sell a certain amount of **Product** to customers. A **Store** has a **Stock** of each **Product** that it can sell.
 
+### Attributes
+
 - Each **Product** has an `id`, `name`, and `cost`.
 - Each **Stock** has a `product`, `price`, and `quantity`.
 - Each **Store** has `expenses`, `revenue`, `purchases`, and `inventory`.
+
+### Domain Vocabulary
 
 - **Cost** is how much money the store spends when ordering one unit of a product.
 - **Price** is how much money the stores charges the customer when selling one unit of a product.
@@ -96,6 +100,8 @@ In this model, a **Store** can sell a certain amount of **Product** to customers
 - **Purchases** is the total number of completed purchases.
 - **Profit** is equal to revenue minus expenses.
 - **Revenue per Purchase** is equal to revenue divided by purchases.
+
+### Domain Actions
 
 - When the store **adds a product**, it sets the **price** that units of that product will be sold at.
 - When the store **increases stock**, it orders a certain amount of a product and adds that amount to the stock quantity.
