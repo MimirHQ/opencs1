@@ -26,8 +26,6 @@ This project remixes and builds on [the Ethical Engine activity](https://medium.
 
 The support files for this project are included in the `ethicalengine` directory.
 
-**Note:** C++ support files and run instructions coming in next release (8/6/2018).
-
 ### Part 1: Exploration
 
 Visit the website for [the Moral Machine project](http://moralmachine.mit.edu/). Click the "Start Judging" button and you will be presented with various scenarios. Complete at least ten scenarios. Keep notes on how you came to your decision in each scenario.
