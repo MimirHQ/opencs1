@@ -26,8 +26,9 @@ The support files for this project are included in the `store` directory.
 
 Your job is to implement an object-oriented model of a store that can process inventory and purchases.
 
-- See [Appendix A](#appendix-a-class-specification) for the specification of classes and methods.
-- See [Appendix B](#appendix-b-error-messages) for the specification of error messages.
+- See [Appendix A](#appendix-a-terminology) for the specification of terminology in this project.
+- See [Appendix B](#appendix-b-class-specification) for the specification of classes and methods.
+- See [Appendix C](#appendix-c-error-messages) for the specification of error messages.
 
 **Optional:** Before you start programming, create a UML diagram from the class specification that illustrates the relationships between `Store`, `Product`, and `Stock` and the functionality of each class.
 
@@ -80,7 +81,29 @@ A successful solution will:
     - Write public methods to increase and decrease stock
     - Write public method to sell a certain amount of product only if paid enough to cover the total price
 
-## Appendix A: Class Specification
+## Appendix A: Terminology
+
+In this model, a **Store** can sell a certain amount of **Product** to customers. A **Store** has a **Stock** of each **Product** that it can sell.
+
+- Each **Product** has an `id`, `name`, and `cost`.
+- Each **Stock** has a `product`, `price`, and `quantity`.
+- Each **Store** has `expenses`, `revenue`, `purchases`, and `inventory`.
+
+- **Cost** is how much money the store spends when ordering one unit of a product.
+- **Price** is how much money the stores charges the customer when selling one unit of a product.
+- **Expenses** is the total amount of money the store spends on ordering products.
+- **Revenue** is the total amount of money the store gains from selling products to customers.
+- **Purchases** is the total number of completed purchases.
+- **Profit** is equal to revenue minus expenses.
+- **Revenue per Purchase** is equal to revenue divided by purchases.
+
+- When the store **adds a product**, it sets the **price** that units of that product will be sold at.
+- When the store **increases stock**, it orders a certain amount of a product and adds that amount to the stock quantity.
+- When a customer tries to makes a **purchase**, they ask to buy a certain amount of a certain product.
+- If the customer's payment is greater than the total price of the amount of product, the store **sells** it to them and the purchase is completed, otherwise the purchase does not happen at all.
+- If a purchase is completed, the store **decreases stock** for the purchased product by the amount that was sold.
+
+## Appendix B: Class Specification
 
 ```cpp
 class Store {
@@ -119,7 +142,7 @@ class Product {
 }
 ```
 
-## Appendix B: Error Messages
+## Appendix C: Error Messages
 
 - **Product**
     - `"Product cost cannot be negative."` if trying to set cost below zero.
