@@ -94,18 +94,18 @@ Using the `Song` class from the previous problem, do the following:
 #include <iostream>
 using namespace std;
 
-class SmartHome {
+class TemperatureUnit {
 
     public:
         string season;
         double temperature;
 
-        SmartHome() {
+        TemperatureUnit() {
             this->season = "winter";
             this->temperature = 70.0;
         }
 
-        SmartHome(string season, double temperature) {
+        TemperatureUnit(string season, double temperature) {
             this->season = season;
             this->temperature = temperature;
         }
@@ -113,7 +113,7 @@ class SmartHome {
 };
 ```
 
-The `SmartHome` class stores data about the current season and the temperature in degrees Fahrenheit.
+The `TemperatureUnit` class stores data about the current season and the temperature in degrees Fahrenheit.
 
 Improve this by **encapsulating** its attributes. Modify the class so that:
 

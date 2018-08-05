@@ -114,7 +114,6 @@ Reference the [definitions of the engagement practices](https://www.engage-csedu
 **1A. Use Meaningful and Relevant Content**
 
 - In practice problems 1-3, students parse data about songs.
-- In practice problem 4, students implement a smart home class.
 - In practice problem 5, students implement a social media user class with privacy settings.
 
 Are these contexts meaningful and relevant to your students? Or do they reflect niche interests?
@@ -186,7 +185,7 @@ The following practice problems might make for good pair programming activities 
     - Playing songs conditionally based on their length
     - Adding an alternate constructor
     - Maintaining class invariants
-- Problem 4: Smart Home
+- Problem 4: Temperature Unit
     - Change protection of attributes
     - Write getters and setters
     - Write increment and decrement methods

@@ -82,17 +82,17 @@ Using the `Song` class from the previous problem, do the following:
 - LO: (Apply) Students will modify a class to encapsulate its internal state.
 
 ```java
-public class SmartHome {
+public class TemperatureUnit {
 
     public String season;
     public double temperature;
 
-    public SmartHome() {
+    public TemperatureUnit() {
         this.season = "winter";
         this.temperature = 70.0;
     }
 
-    public SmartHome(String season, double temperature) {
+    public TemperatureUnit(String season, double temperature) {
         this.season = season;
         this.temperature = temperature;
     }
@@ -100,7 +100,7 @@ public class SmartHome {
 }
 ```
 
-The `SmartHome` class stores data about the current season and the temperature in degrees Fahrenheit.
+The `TemperatureUnit` class stores data about the current season and the temperature in degrees Fahrenheit.
 
 Improve this by **encapsulating** its attributes. Modify the class so that:
 

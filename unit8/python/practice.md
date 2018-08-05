@@ -66,14 +66,14 @@ Using the `Song` class from the previous problem, do the following:
 - LO: (Apply) Students will modify a class to encapsulate its internal state.
 
 ```python
-class SmartHome:
+class TemperatureUnit:
 
     def __init__(self, season: str="winter", temperature: float=70.0):
         self.season = season
         self.temperature = temperature
 ```
 
-The `SmartHome` class stores data about the current season and the temperature in degrees Fahrenheit.
+The `TemperatureUnit` class stores data about the current season and the temperature in degrees Fahrenheit.
 
 Improve this by **encapsulating** its attributes. Modify the class so that:
 
