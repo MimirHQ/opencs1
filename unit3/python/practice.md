@@ -4,14 +4,14 @@
 
 - LO: (Remember) Students will recall how to determine the parity of a number.
 
-Write a function to check whether or not an integer number is a three-digit even number.
+Write a function to check whether or not an integer number is an even number.
 
 ```python
-def is_triple_digit_even_number(number: int) -> bool:
+def is_even_number(number: int) -> bool:
     """
-    Checks whether or not a number is a three-digit even number.
+    Checks whether or not a number is an even number.
     @param number: the number
-    @return: True if the number is a three-digit number and even, otherwise False
+    @return: True if the number is even, otherwise False
     """
     pass
 ```
@@ -51,14 +51,25 @@ What will be the values in the last column, from top to bottom?
 Rewrite this block of code using **logical operators** instead of **nested conditionals**.
 
 ```python
-def tell_me_about_z(z: int) -> None:
-    if z > 0:
-        if z % 2 == 0:
-            print('The number is positive and even.')
+def is_between_exclusive(number: int, low: int, high: int) -> bool:
+    """
+    Checks whether or not a number is between two other numbers (exclusive)
+    @note: you may assume that low will always be lower than high
+    @param number: the number
+    @param low: the low end of the range
+    @param high: the high end of the range
+    @return: true if the number is in range (exclusive), otherwise false
+    """
+    if number > low:
+        if number < high:
+            print('The number is in between.')
+            return True
         else:
-            print('The number is not positive and even.')
+            print('The number is not in between.')
+            return False
     else:
-        print('The number is not positive and even.')
+        print('The number is not in between.')
+        return False
 ```
 
 ## Problem 4
