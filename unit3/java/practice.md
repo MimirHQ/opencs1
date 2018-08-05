@@ -125,7 +125,7 @@ What are the values of `a` and `b` when the program reaches Checkpoint 1? At Che
 
 These conditional functions are related to checking permissions for amusement park rides. Write the body for each function according to the problem description and the function docstring.
 
-Write the body of the `checkRider()` function. People must be at least 12 years old and 41 inches tall to ride.
+Write the body of the `checkRider()` function. People must be at least 12 years old and at least 41 inches tall to ride.
 
 ```java
 public class AmusementParkRide {
