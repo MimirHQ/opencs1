@@ -199,7 +199,7 @@ The following practice problems might make for good pair programming activities 
 
 **3C. Encourage Student Interaction**
 
-When the store programming project is introduced, there is an opoortunity for an ice breaker. Before they implement any part of the program, ask students to predict which store they think will make more revenue. Some possible facilitation questions:
+When the store programming project is introduced, there is an opportunity for an ice breaker. Before they implement any part of the program, ask students to predict which store they think will make more revenue. Some possible facilitation questions:
 
 - "Take a few minutes to think to yourself and make a prediction: Which store do you think will be more profitable?"
 - "Share your prediction with a partner and ask them why they choose their option."

@@ -11,7 +11,7 @@ public class EthicalEngine extends Engine {
      * - Save the passenger, if and only if they are pregnant.
      * Note: in this activity, there will only be one passenger and one pedestrian.
      * @param scenario: details about the scenario
-     * @return: "passengers" or "pedestrians" depending on who you want to save
+     * @return Decision: which group to save
      */
     public static Decision ruleset1(Scenario scenario) {
 
@@ -22,7 +22,7 @@ public class EthicalEngine extends Engine {
      * - Save the passenger, if and only if they are pregnant.
      * Note: in this activity, there will only be one passenger and one pedestrian.
      * @param scenario: details about the scenario
-     * @return: "passengers" or "pedestrians" depending on who you want to save
+     * @return Decision: which group to save
      */
     public static Decision ruleset2(Scenario scenario) {
 
@@ -37,7 +37,7 @@ public class EthicalEngine extends Engine {
      * - The fifth priority is to save the passenger.
      * Note: in this activity, there will only be one passenger and one pedestrian.
      * @param scenario: details about the scenario
-     * @return: "passengers" or "pedestrians" depending on who you want to save
+     * @return Decision: which group to save
      */
     public static Decision ruleset3(Scenario scenario) {
 

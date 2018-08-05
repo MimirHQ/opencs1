@@ -1,6 +1,10 @@
 import random
 
 
+def set_seed(seed):
+    random.seed(seed);
+
+
 class Scenario():
     """ Packages all of the information needed to create an ethical scenario.
 

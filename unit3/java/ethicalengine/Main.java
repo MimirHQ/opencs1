@@ -21,9 +21,9 @@ public class Main {
         while (true) {
             Scenario scene = Scenario.getRandomScenario();
             System.out.println(scene);
-            Decision result = EthicalEngine.rulset1(scene);
-            // Decision result = EthicalEngine.rulset2(scene);
-            // Decision result = EthicalEngine.rulset3(scene);
+            Decision result = EthicalEngine.ruleset1(scene);
+            // Decision result = EthicalEngine.ruleset2(scene);
+            // Decision result = EthicalEngine.ruleset3(scene);
             // Decision result = engine.decide(scene);
             System.out.print("Hit any key to see decision: ");
             scanner.nextLine();

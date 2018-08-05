@@ -49,6 +49,13 @@ $ javac Main.java
 $ java Main
 ```
 
+Scenarios are generated randomly. You can also generate pseudo-random scenarios, where the same scenarios are run each time the program runs. Specify a seed for the random generator as a runtime argument like so:
+
+```bash
+$ javac Main.java
+$ java Main 12
+```
+
 ### Part 3: Design
 
 Now that you have experience using the Ethical Engine API, design your own decision algorithm! You can refer to your notes from the Moral Machine scenarios or come up with an entirely new method of deciding.
@@ -69,4 +76,4 @@ A successful solution will:
 
 ## Appendix A: API
 
-You can read the base documentation for the Ethical Engine project [on GitHub](https://github.com/evanpeck/ethical_engine/blob/master/docs/index.md). The main Ethical Engine API requires students to understand loops and objects, but in this activity, all of the scenarios will have a single passenger and a single pedestrian, making it more suitable for students learning conditionals.
+You can read the base documentation for the Ethical Engine project [on GitHub](https://evanpeck.github.io/ethical_engine). The main Ethical Engine API requires students to understand loops and objects, but in this activity, all of the scenarios will have a single passenger and a single pedestrian, making it more suitable for students learning conditionals.
