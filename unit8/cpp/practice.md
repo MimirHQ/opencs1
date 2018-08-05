@@ -76,6 +76,21 @@ If the song is less than a minute long, call the object's `play()` method, which
 
 In this practice exercise, the song title and artist name values will not contain any commas and data on song title and duration will always be available.
 
+Here is a set of sample input lines:
+
+```
+Thriller,Michael Jackson,357
+Like a Prayer,Madonna,340
+When Doves Cry,Prince,352
+I Wanna Dance With Somebody,Whitney Houston,291
+Baby One More Time,,211
+It's Gonna Be Me,'N Sync,192
+Everybody (Backstreet's Back),the Backstreet Boys,224
+Rolling in the Deep,Adele,228
+Don't Stop Believing,,251
+Billie Jean,Michael Jackson,293
+```
+
 ## Problem 3
 
 - LO: (Remember) Students will recall how to write an alternate constructor for a class.
