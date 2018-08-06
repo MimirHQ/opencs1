@@ -72,7 +72,7 @@ If the artist name is an empty string, it means that data is not available. Use 
 We Were the Champions,,6
 ```
 
-If the song is less than a minute long, call the object's `play()` method, which will pretend to play it.
+If the song is more than five minutes long, call the object's `play()` method, which will pretend to play it.
 
 In this practice exercise, the song title and artist name values will not contain any commas and data on song title and duration will always be available.
 
