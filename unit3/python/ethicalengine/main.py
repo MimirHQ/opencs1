@@ -1,4 +1,8 @@
-from scenario import Scenario
+import sys
+from scenario import (
+    set_seed,
+    Scenario
+)
 from engine import (
     ruleset1,
     ruleset2,
@@ -7,7 +11,7 @@ from engine import (
 )
 
 
-def runSimulation():
+def runSimulation(seed):
     ''' Temporarily putting a main function here to cycle through scenarios'''
 
     print("===========================================")
@@ -15,6 +19,7 @@ def runSimulation():
     print("===========================================")
     print()
 
+    set_seed(seed)
     keepRunning = True
     while keepRunning:
         scene = Scenario()
@@ -38,4 +43,7 @@ def runSimulation():
 
 
 if __name__ == '__main__':
-    runSimulation()
+    seed = 42
+    if len(sys.argv) >= 2:
+        seed = int(sys.argv[1])
+    runSimulation(seed)

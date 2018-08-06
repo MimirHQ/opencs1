@@ -4,14 +4,14 @@
 
 - LO: (Remember) Students will recall how to determine the parity of a number.
 
-Write a function to check whether or not an integer number is a three-digit even number.
+Write a function to check whether or not an integer number is an even number.
 
 ```python
-def is_triple_digit_even_number(number: int) -> bool:
+def is_even_number(number: int) -> bool:
     """
-    Checks whether or not a number is a three-digit even number.
+    Checks whether or not a number is an even number.
     @param number: the number
-    @return: True if the number is a three-digit number and even, otherwise False
+    @return: True if the number is even, otherwise False
     """
     pass
 ```
@@ -46,19 +46,30 @@ What will be the values in the last column, from top to bottom?
 
 ## Problem 3
 
-- LO: (Apply) Students will modify code to use boolean operators instead of nested conditionals.
+- LO: (Apply) Students will modify code to use logical operators instead of nested conditionals.
 
-Rewrite this block of code using **boolean operators** instead of **nested conditionals**.
+Rewrite this block of code using **logical operators** instead of **nested conditionals**.
 
 ```python
-def tell_me_about_z(z: int) -> None:
-    if z > 0:
-        if z % 2 == 0:
-            print('The number is positive and even.')
+def is_between_exclusive(number: int, low: int, high: int) -> bool:
+    """
+    Checks whether or not a number is between two other numbers (exclusive)
+    @note: you may assume that low will always be lower than high
+    @param number: the number
+    @param low: the low end of the range
+    @param high: the high end of the range
+    @return: true if the number is in range (exclusive), otherwise false
+    """
+    if number > low:
+        if number < high:
+            print('The number is in between.')
+            return True
         else:
-            print('The number is not positive and even.')
+            print('The number is not in between.')
+            return False
     else:
-        print('The number is not positive and even.')
+        print('The number is not in between.')
+        return False
 ```
 
 ## Problem 4
@@ -88,10 +99,10 @@ else:
 
 What are the values of `a` and `b` when the program reaches Checkpoint 1? At Checkpoint 2?
 
-A. Checkpoint 1: a = -1, b = 0, Checkpoint 2: a = 0, b = 0
-B. Checkpoint 1: a = 0, b = -1, Checkpoint 2: a = 0, b = 0
-C. Checkpoint 1: a = -1, b = -1, Checkpoint 2: a = 0, b = -1
-D. Checkpoint 1: a = 0, b = 0, Checkpoint 2: a = 1, b = 0
+- A. Checkpoint 1: a = -1, b = 0, Checkpoint 2: a = 0, b = 0
+- B. Checkpoint 1: a = 0, b = -1, Checkpoint 2: a = 0, b = 0
+- C. Checkpoint 1: a = -1, b = -1, Checkpoint 2: a = 0, b = -1
+- D. Checkpoint 1: a = 0, b = 0, Checkpoint 2: a = 1, b = 0
 
 ## Problem 5
 
@@ -100,7 +111,7 @@ D. Checkpoint 1: a = 0, b = 0, Checkpoint 2: a = 1, b = 0
 
 These conditional functions are related to checking permissions for amusement park rides. Write the body for each function according to the problem description and the function docstring.
 
-Write the body of the `check_rider()` function. People must be at least 12 years old and 41 inches tall to ride.
+Write the body of the `check_rider()` function. People must be at least 12 years old and at least 41 inches tall to ride.
 
 ```python
 def check_rider(age: int, height: int) -> bool:
@@ -140,8 +151,8 @@ Write the body of a function that operates a vending machine according to the pr
 - When the customer arrives, item 6 is out of stock, all other items have five in stock.
 - The customer must press a valid keypad button, pay enough money, and have enough items left in order to get something from the vending machine.
 - Print the message `'Selected a valid item.'` or `'Selected an invalid item.'` depending on whether the customer selected a valid item number.
-- Print the message `'Payment was enough.'` or `'Payment was not enough.'` depending on whether the customer paid enough money for the item.
-- Print the message `'Here is your item.'` or `'You get nothing.'` depending on whether the customer gets the item they wanted.
+- If the customer selected a valid item number, print the message `'Payment was enough.'` or `'Payment was not enough.'` depending on whether the customer paid enough money for the item.
+- Print the message `'Here is your item.'` or `'You get nothing.'` depending on whether the customer ultimately gets the item they wanted.
 
 
 ```python

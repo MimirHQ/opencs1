@@ -72,9 +72,24 @@ If the artist name is an empty string, it means that data is not available. Use 
 We Were the Champions,,6
 ```
 
-If the song is less than a minute long, call the object's `play()` method, which will pretend to play it.
+If the song is more than five minutes long, call the object's `play()` method, which will pretend to play it.
 
 In this practice exercise, the song title and artist name values will not contain any commas and data on song title and duration will always be available.
+
+Here is a set of sample input lines:
+
+```
+Thriller,Michael Jackson,357
+Like a Prayer,Madonna,340
+When Doves Cry,Prince,352
+I Wanna Dance With Somebody,Whitney Houston,291
+Baby One More Time,,211
+It's Gonna Be Me,'N Sync,192
+Everybody (Backstreet's Back),the Backstreet Boys,224
+Rolling in the Deep,Adele,228
+Don't Stop Believing,,251
+Billie Jean,Michael Jackson,293
+```
 
 ## Problem 3
 
@@ -94,18 +109,18 @@ Using the `Song` class from the previous problem, do the following:
 #include <iostream>
 using namespace std;
 
-class SmartHome {
+class TemperatureUnit {
 
     public:
         string season;
         double temperature;
 
-        SmartHome() {
+        TemperatureUnit() {
             this->season = "winter";
             this->temperature = 70.0;
         }
 
-        SmartHome(string season, double temperature) {
+        TemperatureUnit(string season, double temperature) {
             this->season = season;
             this->temperature = temperature;
         }
@@ -113,7 +128,7 @@ class SmartHome {
 };
 ```
 
-The `SmartHome` class stores data about the current season and the temperature in degrees Fahrenheit.
+The `TemperatureUnit` class stores data about the current season and the temperature in degrees Fahrenheit.
 
 Improve this by **encapsulating** its attributes. Modify the class so that:
 
@@ -137,7 +152,7 @@ Write a class called `SocialMediaUser` that holds the following information:
 
 The class is only required to have a single constructor, which will receive parameters for all six of these attributes in the order they are listed.
 
-Then write a public method called `showSummary()` that returns a summary of the user as a String in this format:
+Then write a public method called `showSummary()` that prints a summary of the user as a String in this format:
 
 ```
 First Last (Age) has # followers and # posts.

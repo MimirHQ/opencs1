@@ -40,12 +40,18 @@ Below are written descriptions of rulesets for sample decision algorithms. Your 
 
 1. Save the passenger, if and only if they are pregnant.
 2. Save the pedestrian, if they are crossing legally or if they are a child.
-3. The first priority is to save the youngest person. The second priority is to save athletic people. The third priority is to save people who are either a doctor or a CEO. The fourth priority is to save females. The fifth priority is to save the passenger.
+3. The first priority is to save the person who is a baby. The second priority is to save athletic people. The third priority is to save people who are either a doctor or a CEO. The fourth priority is to save females. The fifth priority is to save the passenger.
 
-Fill in the appropriate methods in `engine.py`. When you want to test one of the decision methods, edit line 23 of `main.py` to choose the target method. Then execute the following command in your terminal to run the program:
+Fill in the appropriate methods in `engine.py`. When you want to test one of the decision methods, edit line `23` of `main.py` to choose the target method. Then execute the following command in your terminal to run the program:
 
 ```bash
-$ python3 main.py
+$ python3.6 main.py
+```
+
+Scenarios are generated randomly. You can also generate pseudo-random scenarios, where the same scenarios are run each time the program runs. Specify a seed for the random generator as a runtime argument like so:
+
+```bash
+$ python3.6 main.py 12
 ```
 
 ### Part 3: Design
@@ -68,4 +74,4 @@ A successful solution will:
 
 ## Appendix A: API
 
-You can read the base documentation for the Ethical Engine project [on GitHub](https://github.com/evanpeck/ethical_engine/blob/master/docs/index.md). The main Ethical Engine API requires students to understand loops and objects, but in this activity, all of the scenarios will have a single passenger and a single pedestrian, making it more suitable for students learning conditionals.
+You can read the base documentation for the Ethical Engine project [on GitHub](https://evanpeck.github.io/ethical_engine). The main Ethical Engine API requires students to understand loops and objects, but in this activity, all of the scenarios will have a single passenger and a single pedestrian, making it more suitable for students learning conditionals.

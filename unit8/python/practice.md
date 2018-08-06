@@ -15,7 +15,7 @@ class Song:
     def play(self) -> None:
         secs = self.duration % 60
         mins = self.duration // 60
-        played = 'Played {} by {} for {}:{}'
+        played = 'Played "{}" by {} for {}:{}'
         print(played.format(self.title, self.artist, mins, secs))
 ```
 
@@ -47,9 +47,24 @@ If the artist name is an empty string, it means that data is not available. Use 
 We Were the Champions,,6
 ```
 
-If the song is less than a minute long, call the object's `play()` method, which will pretend to play it.
+If the song is more than five minutes long, call the object's `play()` method, which will pretend to play it.
 
 In this practice exercise, the song title and artist name values will not contain any commas and data on song title and duration will always be available.
+
+Here is a set of sample input lines:
+
+```
+Thriller,Michael Jackson,357
+Like a Prayer,Madonna,340
+When Doves Cry,Prince,352
+I Wanna Dance With Somebody,Whitney Houston,291
+Baby One More Time,,211
+It's Gonna Be Me,'N Sync,192
+Everybody (Backstreet's Back),the Backstreet Boys,224
+Rolling in the Deep,Adele,228
+Don't Stop Believing,,251
+Billie Jean,Michael Jackson,293
+```
 
 ## Problem 3
 
@@ -59,21 +74,21 @@ In this practice exercise, the song title and artist name values will not contai
 Using the `Song` class from the previous problem, do the following:
 
 - Edit the constructor to initialize songs when only the duration is known. Use `"Untitled Song"` and `"Unknown Artist"` as the default values.
-- Edit the constructor to raise an error if an object is instantiated with a negative duration. Use `"Invalid value: song duration cannot be negative."` as the error message.
+- Edit the constructor to raise an exception if an object is instantiated with a negative duration. Use `"Invalid value: song duration cannot be negative."` as the error message.
 
 ## Problem 4
 
 - LO: (Apply) Students will modify a class to encapsulate its internal state.
 
 ```python
-class SmartHome:
+class TemperatureUnit:
 
     def __init__(self, season: str="winter", temperature: float=70.0):
         self.season = season
         self.temperature = temperature
 ```
 
-The `SmartHome` class stores data about the current season and the temperature in degrees Fahrenheit.
+The `TemperatureUnit` class stores data about the current season and the temperature in degrees Fahrenheit.
 
 Improve this by **encapsulating** its attributes. Modify the class so that:
 
@@ -97,7 +112,7 @@ Write a class called `SocialMediaUser` that holds the following information:
 
 The class constructor will receive parameters for all six of these attributes in the order they are listed.
 
-Then write a public method called `show_summary()` that returns a summary of the user as a String in this format:
+Then write a public method called `show_summary()` that prints a summary of the user as a String in this format:
 
 ```
 First Last (Age) has # followers and # posts.
@@ -121,13 +136,13 @@ class VideoMetaData:
     def __init__(self):
         pass
 
-    def play(duration: int) -> None:
+    def play(self, duration: int) -> None:
         pass
 
-    def get_number_of_plays() -> int:
+    def get_number_of_plays(self) -> int:
         return 0
 
-    def get_average_play_duration() -> float:
+    def get_average_play_duration(self) -> float:
         return 0.0
 ```
 

@@ -9,7 +9,10 @@ def ruleset1(scenario: Scenario) -> str:
     @param scenario: details about the scenario
     @return: "passengers" or "pedestrians" depending on who you want to save
     """
-    pass
+    passenger = scenario.passengers[0]
+    pedestrian = scenario.pedestrians[0]
+    # TODO: Fill in the method
+    return "passengers"
 
 
 def ruleset2(scenario: Scenario) -> str:
@@ -20,13 +23,16 @@ def ruleset2(scenario: Scenario) -> str:
     @param scenario: details about the scenario
     @return: "passengers" or "pedestrians" depending on who you want to save
     """
-    pass
+    passenger = scenario.passengers[0]
+    pedestrian = scenario.pedestrians[0]
+    # TODO: Fill in the method
+    return "passengers"
 
 
 def ruleset3(scenario: Scenario) -> str:
     """
     Decides whether your car will save the passengers or pedestrians.
-    - The first priority is to save the youngest person.
+    - The first priority is to save the person who is a baby.
     - The second priority is to save athletic people.
     - The third priority is to save people who are either a doctor or a CEO.
     - The fourth priority is to save females.
@@ -35,7 +41,10 @@ def ruleset3(scenario: Scenario) -> str:
     @param scenario: details about the scenario
     @return: "passengers" or "pedestrians" depending on who you want to save
     """
-    pass
+    passenger = scenario.passengers[0]
+    pedestrian = scenario.pedestrians[0]
+    # TODO: Fill in the method
+    return "passengers"
 
 
 def my_decision(scenario: Scenario) -> str:
@@ -46,4 +55,7 @@ def my_decision(scenario: Scenario) -> str:
     @param scenario: details about the scenario
     @return: "passengers" or "pedestrians" depending on who you want to save
     """
-    pass
+    passenger = scenario.passengers[0]
+    pedestrian = scenario.pedestrians[0]
+    # TODO: Fill in the method
+    return "passengers"
