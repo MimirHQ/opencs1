@@ -2,7 +2,7 @@
 
 This unit is ready for instructor feedback.
 
-- [Read the unit instructor guide](/unit8/guide)
+- [Read the unit instructor guide](/unit8/guide.md)
 - View the materials in your language of choice:
     - [Python](/unit8/python)
     - [Java](/unit8/java)
