@@ -65,10 +65,10 @@ public class Scenario {
     
     private static Random random = new Random();
     
-    public static int MIN_PASSENGERS = 0;
-    public static int MAX_PASSENGERS = 4;
+    public static int MIN_PASSENGERS = 1;
+    public static int MAX_PASSENGERS = 1;
     public static int MIN_PEDESTRIANS = 1;
-    public static int MAX_PEDESTRIANS = 4;
+    public static int MAX_PEDESTRIANS = 1;
     
     public static boolean[] YOU_CHANCE = {true, false, false, false};
     public static boolean[] LEGAL_CROSSING_CHANCE = {true, true, false};
