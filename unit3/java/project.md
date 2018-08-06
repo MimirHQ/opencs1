@@ -42,7 +42,7 @@ Below are written descriptions of rulesets for sample decision algorithms. Your 
 2. Save the pedestrian, if they are crossing legally or if they are a child.
 3. The first priority is to save the youngest person. The second priority is to save athletic people. The third priority is to save people who are either a doctor or a CEO. The fourth priority is to save females. The fifth priority is to save the passenger.
 
-Fill in the appropriate methods in `EthicalEngine.java`. When you want to test one of the decision methods, edit line 24 of `Main.java` to choose the target method. Then execute the following command in your terminal to run the program:
+Fill in the appropriate methods in `EthicalEngine.java`. When you want to test one of the decision methods, edit line `24` of `Main.java` to choose the target method. Then execute the following command in your terminal to run the program:
 
 ```bash
 $ javac Main.java
