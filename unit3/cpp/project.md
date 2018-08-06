@@ -40,7 +40,7 @@ Below are written descriptions of rulesets for sample decision algorithms. Your 
 
 1. Save the passenger, if and only if they are pregnant.
 2. Save the pedestrian, if they are crossing legally or if they are a child.
-3. The first priority is to save the youngest person. The second priority is to save athletic people. The third priority is to save people who are either a doctor or a CEO. The fourth priority is to save females. The fifth priority is to save the passenger.
+3. The first priority is to save the person who is a baby. The second priority is to save athletic people. The third priority is to save people who are either a doctor or a CEO. The fourth priority is to save females. The fifth priority is to save the passenger.
 
 **Note:** C++ support files and run instructions coming in next release (8/6/2018).
 
