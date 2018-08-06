@@ -112,7 +112,7 @@ Write a class called `SocialMediaUser` that holds the following information:
 
 The class constructor will receive parameters for all six of these attributes in the order they are listed.
 
-Then write a public method called `show_summary()` that returns a summary of the user as a String in this format:
+Then write a public method called `show_summary()` that prints a summary of the user as a String in this format:
 
 ```
 First Last (Age) has # followers and # posts.
