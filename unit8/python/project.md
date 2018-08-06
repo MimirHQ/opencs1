@@ -43,7 +43,7 @@ Instantiate both stores according to their order forms and then simulate all of 
 Write your simulation program in `simulation.py`, then run it by executing this commands in your terminal:
 
 ```bash
-$ python3 simulation.py < purchaselog.csv
+$ python3.6 simulation.py < purchaselog.csv
 ```
 
 Use your simulation to answer these questions:

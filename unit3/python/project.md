@@ -45,13 +45,13 @@ Below are written descriptions of rulesets for sample decision algorithms. Your 
 Fill in the appropriate methods in `engine.py`. When you want to test one of the decision methods, edit line `23` of `main.py` to choose the target method. Then execute the following command in your terminal to run the program:
 
 ```bash
-$ python3 main.py
+$ python3.6 main.py
 ```
 
 Scenarios are generated randomly. You can also generate pseudo-random scenarios, where the same scenarios are run each time the program runs. Specify a seed for the random generator as a runtime argument like so:
 
 ```bash
-$ python3 main.py 12
+$ python3.6 main.py 12
 ```
 
 ### Part 3: Design

@@ -10,7 +10,7 @@
 Compile and run the main file to simulate your engine with random scenarios:
 
 ```
-$ python3 main.py
+$ python3.6 main.py
 ```
 
 The program will show output like this:
@@ -37,7 +37,7 @@ Done.
 Scenarios are generated randomly. You can also generate pseudo-random scenarios, where the same scenarios are run each time the program runs. Specify a seed for the random generator as a runtime argument like so:
 
 ```
-$ python3 main.py 12
+$ python3.6 main.py 12
 ```
 
 Each time you run the program with the value 12, you will see the same series of scenarios.

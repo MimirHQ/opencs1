@@ -15,7 +15,7 @@ class Song:
     def play(self) -> None:
         secs = self.duration % 60
         mins = self.duration // 60
-        played = 'Played {} by {} for {}:{}'
+        played = 'Played "{}" by {} for {}:{}'
         print(played.format(self.title, self.artist, mins, secs))
 ```
 
@@ -74,7 +74,7 @@ Billie Jean,Michael Jackson,293
 Using the `Song` class from the previous problem, do the following:
 
 - Edit the constructor to initialize songs when only the duration is known. Use `"Untitled Song"` and `"Unknown Artist"` as the default values.
-- Edit the constructor to raise an error if an object is instantiated with a negative duration. Use `"Invalid value: song duration cannot be negative."` as the error message.
+- Edit the constructor to raise an exception if an object is instantiated with a negative duration. Use `"Invalid value: song duration cannot be negative."` as the error message.
 
 ## Problem 4
 
@@ -136,13 +136,13 @@ class VideoMetaData:
     def __init__(self):
         pass
 
-    def play(duration: int) -> None:
+    def play(self, duration: int) -> None:
         pass
 
-    def get_number_of_plays() -> int:
+    def get_number_of_plays(self) -> int:
         return 0
 
-    def get_average_play_duration() -> float:
+    def get_average_play_duration(self) -> float:
         return 0.0
 ```
 
