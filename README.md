@@ -15,6 +15,10 @@ Open CS1 is a commitment that the team at Mimir submitted for the [2018 CSforALL
 
 > Mimir, in collaboration with universities around the country, will develop and pilot eight units of free course materials to improve adoption of free digital textbooks and reduce costs for students.
 
+If you use these materials in your course and have feedback to share, please let us know!
+
+**Contact:** Vinesh Kannan (vinesh@mimirhq.com).
+
 ## Design Principles
 
 These five design principles define the focus of the Open CS1 course materials:
