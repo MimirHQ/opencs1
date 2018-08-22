@@ -53,11 +53,11 @@ By Vinesh Kannan, Mary Vo, and Eduardo Vidaurri-Rodriguez
 
 ### Java
 
-**_Think Java_**
+**_Think Java, 2nd Edition Draft_**
 
 By Allen Downey and Chris Mayfield
 
-[PDF Link](http://greenteapress.com/thinkjava6/thinkjava.pdf)
+[PDF Link](http://greenteapress.com/thinkjava6/thinkjava2.pdf)
 
 ### C++
 

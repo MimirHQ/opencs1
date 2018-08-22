@@ -30,7 +30,7 @@ By Allen Downey
 
 **_Think Java_**
 By Allen Downey and Chris Mayfield
-[PDF Link](http://greenteapress.com/thinkjava6/thinkjava.pdf)
+[PDF Link](http://greenteapress.com/thinkjava6/thinkjava2.pdf)
 
 - Objects: 10.1 - 10.9 (optional: 10.10 Java source)
 - Classes: 11.1 - 11.8 (11.9 is about pure methods)
