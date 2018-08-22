@@ -28,7 +28,7 @@ By Allen Downey
 
 ### Java
 
-**_Think Java_**
+**_Think Java, 2nd Edition Draft_**
 By Allen Downey and Chris Mayfield
 [PDF Link](http://greenteapress.com/thinkjava6/thinkjava2.pdf)
 
