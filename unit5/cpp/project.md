@@ -59,7 +59,7 @@ Refer to these sections for documentation:
 - [Appendix B: Maps](#appendix-b-maps), the format for specifying a map
 - [Appendix C: API](#appendix-c-api), the functions your bots can use
 
-Download and unzip the correct PaintBot zip archive for your operating system and programming language.
+Download and unzip the correct [PaintBot zip archive](https://github.com/MimirHQ/opencs1/tree/master/resources/paintbot) for your operating system and programming language.
 
 In these two-player matches, the first player, Player 0, will start at the top-right cell of the map, facing right (90 degrees). The second player, Player 1, will start in the bottom-right cell of the map, facing left (270 degrees). You must leave those cells in your map.
 
