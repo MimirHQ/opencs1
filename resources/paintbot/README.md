@@ -17,4 +17,4 @@ To run the match for these two players and the given map, run this command:
 $ make paintbot
 ```
 
-Running the executable may require your permission as a user. It may be dangerous to run executables from untrusted sources. These executables were updated by the Mimir curriculum team on 9/17/2018 and confirmed to contain the correct executables from the original PaintBot source code.
+Running the executable may require your permission as a user. It may be dangerous to run executables from untrusted sources. These executables were updated by the Mimir curriculum team on 9/21/2018 and confirmed to contain the correct executables from the original PaintBot source code.
