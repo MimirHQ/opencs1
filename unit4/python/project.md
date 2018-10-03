@@ -98,36 +98,33 @@ If they are free, players can move into any empty cell or painted cell. Trying t
 
 ## Movement
 
-|-------------|----------|-------------|
-| Return Type | Function | Description |
-|-------------|----------|-------------|
-| `None` | `forward()` | Moves forward in the direction of the bot's rotation. |
-| `None` | `backward()` | Moves backward opposite the direction of the bot's rotation. |
-| `None` | `rotate_left()` | Rotates the bot counter-clockwise. |
-| `None` | `rotate_right()` | Rotates the bot clockwise. |
-| `None` | `skip()` | Skips the current turn. |
+Return Type | Function | Description
+-------------|----------|-------------
+`None` | `forward()` | Moves forward in the direction of the bot's rotation.
+`None` | `backward()` | Moves backward opposite the direction of the bot's rotation.
+`None` | `rotate_left()` | Rotates the bot counter-clockwise.
+`None` | `rotate_right()` | Rotates the bot clockwise.
+`None` | `skip()` | Skips the current turn.
 
 
 ## Game Data
 
-|-------------|----------|-------------|
-| Return Type | Function | Description |
-|-------------|----------|-------------|
-| `int` | `get_my_score()` | Counts the number of cells painted in your color. |
-| `int` | `get_turn()` | Gets the current turn number (first turn is `0`). |
-| `int` | `get_max_turns()` | Gets the maximum number of turns the game can last. |
-| `bool` | `is_playing()` | Indicates whether or not the game is still in progress. |
+Return Type | Function | Description
+-------------|----------|-------------
+`int` | `get_my_score()` | Counts the number of cells painted in your color.
+`int` | `get_turn()` | Gets the current turn number (first turn is `0`).
+`int` | `get_max_turns()` | Gets the maximum number of turns the game can last.
+`bool` | `is_playing()` | Indicates whether or not the game is still in progress.
 
 ## Sensors
 
-|-------------|----------|-------------|
-| Return Type | Function | Description |
-|-------------|----------|-------------|
-| `int` | `get_rotation()` | Gets the bot's angle of rotation (`0` = up, `90` = right, `180` = down, `270` = left). |
-| `int` | `get_x()` | Gets the bot's x coordinate. |
-| `int` | `get_y()` | Gets the bot's y coordinate. |
-| `int` | `get_x_size()` | Gets the number of columns in the game map. |
-| `int` | `get_y_size()` | Gets the number of rows in the game map. |
-| `bool` | `is_in_bounds(x: int, y: int)` | Indicates whether or not (x, y) is in the map. |
-| `bool` | `is_blocked(x: int, y: int)` | Indicates whether or not (x, y) is currently unavailable to move to. |
-| `bool` | `is_my_color(x: int, y: int)` | Indicates whether or not (x, y) is painted in your color. |
+Return Type | Function | Description
+-------------|----------|-------------
+`int` | `get_rotation()` | Gets the bot's angle of rotation (`0` = up, `90` = right, `180` = down, `270` = left).
+`int` | `get_x()` | Gets the bot's x coordinate.
+`int` | `get_y()` | Gets the bot's y coordinate.
+`int` | `get_x_size()` | Gets the number of columns in the game map.
+`int` | `get_y_size()` | Gets the number of rows in the game map.
+`bool` | `is_in_bounds(x: int, y: int)` | Indicates whether or not (x, y) is in the map.
+`bool` | `is_blocked(x: int, y: int)` | Indicates whether or not (x, y) is currently unavailable to move to.
+`bool` | `is_my_color(x: int, y: int)` | Indicates whether or not (x, y) is painted in your color.
