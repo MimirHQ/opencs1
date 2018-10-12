@@ -48,7 +48,7 @@ What will be the values of the cells (denoted by `?`) in the last column, from t
 
 - LO: (Apply) Students will modify code to use logical operators instead of nested conditionals.
 
-Rewrite this block of code using **logical operators** instead of **nested conditionals**.
+Rewrite the nested conditional statement to use a single if statement that uses logical operators to accomplish the same goal.
 
 ```python
 def is_between_exclusive(number: int, low: int, high: int) -> bool:
@@ -109,7 +109,7 @@ What are the values of `a` and `b` when the program reaches Checkpoint 1? At Che
 - LO: (Apply) Students will write conditional code that implements written requirements.
 - LO: (Apply) Students will transform conditional code to incorporate a new written requirement.
 
-These conditional functions are related to checking permissions for amusement park rides. Write the body for each function according to the problem description and the function docstring.
+These functions check permissions for amusement park rides. Write the body for each function according to the problem description and the function docstring.
 
 Write the body of the `check_rider()` function. People must be at least 12 years old and at least 41 inches tall to ride.
 
