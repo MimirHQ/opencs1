@@ -32,12 +32,12 @@ Fill in the truth table with the value of each part of this boolean expression (
 
 | a | b | a or b | (a or b) and a | not ((a or b) and a) |
 |---|---|--------|----------------|----------------------|
-| T | T | ?      | ?              | ?                    |
-| T | F | ?      | ?              | ?                    |
-| F | T | ?      | ?              | ?                    |
-| F | F | ?      | ?              | ?                    |
+| T | T | ---    | ---            | ?                    |
+| T | F | ---    | ---            | ?                    |
+| F | T | ---    | ---            | ?                    |
+| F | F | ---    | ---            | ?                    |
 
-What will be the values in the last column, from top to bottom?
+What will be the values of the cells (denoted by `?`) in the last column, from top to bottom?
 
 - A. T, T, T, F
 - B. F, F, F, T
