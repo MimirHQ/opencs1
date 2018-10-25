@@ -2,15 +2,15 @@
 
 ## Problem 1
 
-- LO: (Understand) Students will identify the terminating condition of a recursive method.
+- LO: (Understand) Students will identify when a recursive method terminates.
 
 The **factorial** of a non-negative integer is the product of that integer and all of the non-negative integers less than it. The **factorial** of zero is equal to 1. Factorial is not defined for negative numbers.
 
-Consider this method that defines factorial recursively. Which of the following conditions could fill in this blank and allow the recursive method to terminate correctly?
+Consider this method that defines factorial recursively. How many times does the method run when computing the value of `factorial(6)`? How many times does the method run when computing the value of `factorial(0)`?
 
 ```cpp
 int factorial(int n) {
-    bool terminate = ______;
+    bool terminate = n == 0;
     if (terminate) {
         return 1;
     }
@@ -18,12 +18,10 @@ int factorial(int n) {
 }
 ```
 
-Select all that apply:
-
-- [ ] n == 0
-- [ ] n == 1
-- [ ] n < 0
-- [ ] n < 1
+- A. `factorial(6)` runs 6 times, `factorial(0)` runs 0 times
+- B. `factorial(6)` runs 6 times, `factorial(0)` runs 1 time
+- C. `factorial(6)` runs 7 times, `factorial(0)` runs 0 times
+- D. `factorial(6)` runs 7 times, `factorial(0)` runs 1 time
 
 ## Problem 2
 
