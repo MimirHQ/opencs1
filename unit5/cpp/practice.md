@@ -207,7 +207,7 @@ int main() {
     int customerCPoints = 0;
     string customer;
     float purchase;
-    bool looping
+    bool looping;
     while (looping) {
         cout << "Customer: ";
         cin >> customer;
