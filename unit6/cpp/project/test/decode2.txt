@@ -1,0 +1,2 @@
+0
+img/seismometer-out.ppm

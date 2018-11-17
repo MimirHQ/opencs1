@@ -1,0 +1,5 @@
+img/diag-in.ppm
+img/diag8-out.ppm
+8
+0 0
+0 255 0

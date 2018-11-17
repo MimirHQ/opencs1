@@ -1,0 +1,4 @@
+1
+img/pony.ppm
+img/pony-out.ppm
+i am feeling a little horse
