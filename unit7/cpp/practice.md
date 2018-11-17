@@ -2,15 +2,15 @@
 
 ## Problem 1
 
-- LO: (Understand) Students will identify when a recursive method terminates.
+- LO: (Understand) Students will identify the terminating condition of a recursive method.
 
 The **factorial** of a non-negative integer is the product of that integer and all of the non-negative integers less than it. The **factorial** of zero is equal to 1. Factorial is not defined for negative numbers.
 
-Consider this method that defines factorial recursively. How many times does the method run when computing the value of `factorial(6)`? How many times does the method run when computing the value of `factorial(0)`?
+Consider this method that defines factorial recursively. Which of the following conditions could fill in this blank and allow the recursive method to terminate correctly?
 
 ```cpp
 int factorial(int n) {
-    bool terminate = n == 0;
+    bool terminate = ______;
     if (terminate) {
         return 1;
     }
@@ -18,10 +18,12 @@ int factorial(int n) {
 }
 ```
 
-- A. `factorial(6)` runs 6 times, `factorial(0)` runs 0 times
-- B. `factorial(6)` runs 6 times, `factorial(0)` runs 1 time
-- C. `factorial(6)` runs 7 times, `factorial(0)` runs 0 times
-- D. `factorial(6)` runs 7 times, `factorial(0)` runs 1 time
+Select all that apply:
+
+- [ ] n == 0
+- [ ] n == 1
+- [ ] n < 0
+- [ ] n < 1
 
 ## Problem 2
 
@@ -105,6 +107,7 @@ vector<vector<int>> matches;
 // TODO: Write your method here
 
 
+// You do not need to modify the main method
 int main() {
     int teams;
     cin >> teams;
@@ -151,22 +154,20 @@ To make Key Lime Pie you need:
     - Lime Zest
     - Sugar
   - Milk
-  - Key Lime Juice
-    - Lime Zest
-    - Sugar
   - Sour Cream
 - Lime Slices
 ```
 
 The global variable `ingredients` is a vector of vectors of strings. Each item in `ingredients` is a vector that holds two strings. The first string represents a dish and the second string represents an ingredient required to make that dish.
 
-For this exercise, you can assume that there are no cyclic relationships. That is, if a dish requires some ingredient, than that dish will never be an ingredient for any of the ingredients it requires. If this were not true, this would be a much harder method to write.
+For this exercise, you can assume that there are no cyclic relationships. That is, if a dish requires some ingredient, then that dish will never be an ingredient for any of the ingredients it requires. If this were not true, this would be a much harder method to write.
 
 You do not need to modify the main method, it will read in the input data and populate `ingredients`.
 
 ```cpp
 #include <iostream>
 #include <vector>
+#include <limits>
 using namespace std;
 
 vector<vector<string>> ingredients;
@@ -175,10 +176,11 @@ vector<vector<string>> ingredients;
 // TODO: Write your method here
 
 
+// You do not need to modify the main method
 int main() {
     int items;
     cin >> items;
-    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    cin.ignore();
     string recipe;
     getline(cin, recipe);
     for (int i = 0; i < items; i++) {
@@ -191,6 +193,7 @@ int main() {
     cout << "To make " << recipe << " you need:" << endl;
     displayIngredientsFor(recipe, 0);
 }
+
 ```
 
 ## Problem 6

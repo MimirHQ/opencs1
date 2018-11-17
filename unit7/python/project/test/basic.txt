@@ -1,0 +1,5 @@
+img/basic-in.ppm
+img/basic-out.ppm
+4
+100 100
+255 0 0

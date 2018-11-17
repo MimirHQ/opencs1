@@ -105,7 +105,7 @@ int main() {
 
 Some students have organized an election to determine the new leaders of their school club. Each member of the club has a unique ID that they can use when they vote. However, the election managers suspect that some members have voted twice.
 
-Write a program to read in member IDs and check if there are any repeated values. If a ID has already be used, output a line in this format:
+Write a program to read in member IDs and check if there are any repeated values. If an ID has already been used, output a line in this format:
 
 ```
 REPEAT: The ID BE45N6 has already been counted!
@@ -156,7 +156,8 @@ I I I I
 I . . I
 ```
 
-The drawing will consist of capital letters A-Z and will always be 4 letters wide and 4 letters tall. 
+The drawing will consist of capital letters A-Z and will always be 4 letters wide and 4 letters tall with a space between each character. 
+
 
 ```cpp
 #include <iostream>

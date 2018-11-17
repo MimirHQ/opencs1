@@ -1,0 +1,4 @@
+1
+img/nicolascage.ppm
+img/nicolascage-out.ppm
+RUN THE DECODE TEST TO GET THE SECRET MESSAGE FOR THIS TEST

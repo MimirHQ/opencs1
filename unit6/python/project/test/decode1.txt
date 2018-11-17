@@ -1,0 +1,2 @@
+0
+img/pony-out.ppm

@@ -1,0 +1,5 @@
+img/far-in.ppm
+img/far-out.ppm
+4
+49 149
+6 38 86
