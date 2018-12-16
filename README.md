@@ -17,7 +17,7 @@ Open CS1 is a commitment that the team at Mimir submitted for the [2018 CSforALL
 
 If you use these materials in your course and have feedback to share, please let us know!
 
-**Contact:** Vinesh Kannan (vinesh@mimirhq.com).
+**Contact:** oer@mimirhq.com
 
 ## Design Principles
 
@@ -112,9 +112,7 @@ There are three versions of each unit, one in each of the three focus languages:
 
 ## Contributing
 
-If you are interested in piloting these materials and would like access to the instructor-facing materials, please contact Vinesh Kannan (vinesh@mimirhq.com).
-
-_Full contributing guide to follow._
+If you are interested in piloting these materials and would like access to the instructor-facing materials, please contact oer@mimirhq.com
 
 ## License
 
